@@ -1,0 +1,8 @@
+.Elul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Elul>div{
+    margin: 10px;
+}

@@ -1,0 +1,84 @@
+
+#login{
+    width: 100%;
+    height: 100%;
+    background-image: url(../login-bg.04425a08.png);
+    background-size: cover;
+    background-position: 50%
+}
+.box{
+    width: 1120px;
+    height: 620px;
+    margin: 0 auto;
+}
+.login-left{
+    padding-top: 80px;
+    color:#fff;
+    float: left;
+   
+}
+.font{
+    font-size: 106px;
+}
+.money{
+    font-size: 18px;
+    line-height: 60px;
+    margin-top:60px;
+}
+
+.login-right{
+    width: 460px;
+    height: 530px;
+    background: #fff;
+    float: right;
+    margin-top:85px;
+    border-radius: 15px;
+    padding: 0 80px;
+}
+.login-right dl {
+    text-align: center;
+}
+.login-right dl img{
+    width: 100px;
+    height: 100px;
+    margin-top:30px;
+}
+.login-right dl dd{
+    line-height: 60px;
+    font-size: 14px;
+}
+.login-right input{
+    width: 100%;
+    height: 50px;
+    margin-top:10px;
+    border:0;
+    outline: 0;
+    border-bottom:1px solid #ccc;
+}
+.login-right .btn{
+    width: 100%;
+    height: 45px;
+    border-radius: 25px;
+    background: #7b1ad9;
+    color:#fff;
+    border:0;
+    outline: none;
+    margin-top:15px;
+}
+.ipty{
+    position: relative;
+}
+.ipty input{
+    padding-right: 150px;
+}
+.codebtn{
+    width: 100px;
+    height: 34px;
+    display: inline-block;
+    border:1px solid #ccc;
+    text-align: center;
+    line-height: 34px;
+    position: absolute;
+    right:0;
+    top:14px;
+}

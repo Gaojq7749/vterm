@@ -1,0 +1,57 @@
+.navLeft{
+    width: 200px;
+    height: 100%;
+    background: #001529;
+    float: left;
+}
+.navLeft dl{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    color:#fff;
+    font-size: 14px;
+}
+.navLeft dl img{
+    width: 60px;
+    height: 60px;
+    border:1px solid #666;
+    border-radius: 50%;
+    margin-top:65px;
+}
+.navLeft dl dd{
+    line-height: 35px;
+}
+
+.li-list{
+    width: 100%;
+    height: 300px;
+    margin-top:35px;
+}
+.li-list li{
+    height: 40px;
+    line-height: 40px;
+    padding-left:30px;
+    font-size: 14px;
+    color:#ccc;
+}
+.li-list li a{
+    color:#ccc;
+    text-decoration: none;
+}
+.oSpan span{
+    width: 60px;
+    height: 30px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px 17px;
+    
+}
+.ant-menu-submenu > .ant-menu {
+    background-color: #000c17 !important;
+    /* background-color: red */
+
+    border-radius: 4px;
+}
