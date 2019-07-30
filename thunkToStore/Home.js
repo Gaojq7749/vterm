@@ -2,13 +2,23 @@ import React, { Component } from 'react'
 import {connect} from "react-redux"
 import request from "./api/request"
 
+import {BrowserRouter,NavLink} from "react-router-dom";
+import RouterView from './router/RouterView';
+import routes from './router/RouterConfig';
+
+
 class Home extends Component {
     render() {
         return (
-            <div>
-               <button type="button" onClick={this.requestData.bind(this)}>保存数据</button>
-               <button type="button" onClick={this.getData.bind(this)}>获取数据</button>
-            </div>
+            <BrowserRouter>
+                <button type="button" onClick={this.requestData.bind(this)}>保存数据</button>
+                <button type="button" onClick={this.getData.bind(this)}>获取数据</button>  
+                <RouterView routes={routes}/>  
+                <div>
+                    <NavLink to="/page">首页</NavLink>
+                    <NavLink to="/mine">我的</NavLink>
+                </div>
+            </BrowserRouter>
         )
     }
     requestData(){
